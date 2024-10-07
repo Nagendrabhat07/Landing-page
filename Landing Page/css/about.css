@@ -1,0 +1,121 @@
+.about-us{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    background: rgb(250, 150, 150);
+    width: 800px;
+    margin-left: 100px;
+    height: auto;
+    margin-top: 300px;
+    border-radius: 20px;
+    padding-left: 8px;
+    padding-top: 50px;
+    box-shadow: 10px 10px 10px rgb(150, 44, 44);
+    animation: float2 2s linear infinite;
+}
+@keyframes float2 {
+    0%,
+    100%{
+        transform: translateX(0rem);
+    }
+    50%{
+        transform: translateX(5rem);
+    }
+}
+
+h5{
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-top: -50px;
+    margin-left: 10px;
+}
+p{
+    font-size: 17px;
+    overflow-y: auto;
+    color: #882D17;
+    padding-bottom: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ .first{
+    padding-bottom: 10px;
+}
+.second{
+    padding-bottom: 10px;
+}
+
+
+@media(max-width : 768px){
+    .about-us{
+        display: flex;
+        top: 0;
+        margin-top: 50px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-left: -8px;
+        overflow: auto;
+       
+       
+       
+        
+    }
+    .abt{
+        padding-left: 15px;
+        padding-right: 10px;
+    }
+    h5{
+        padding-top: 40px;
+    }
+    p{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+    @keyframes float2 {
+        0%,
+        100%{
+            transform: translateX(0rem);
+        }
+        50%{
+            transform: translateX(2rem);
+        }
+    }
+}
+@media(max-width : 893px){
+    @keyframes float2 {
+        0%,
+        100%{
+            transform: translateX(0.1rem);
+        }
+        50%{
+            transform: translateX(0.5rem);
+        }
+    }
+}
+
+@media(max-width: 844px){
+    @keyframes float2 {
+        0%,
+        100%{
+            transform: translateX(0rem);
+        }
+        50%{
+            transform: translateX(1rem);
+        }
+    }
+}
+@media(max-width: 932px){
+    @keyframes float2 {
+        0%,
+        100%{
+            transform: translateX(0rem);
+        }
+        50%{
+            transform: translateX(1rem);
+        }
+    }
+}
