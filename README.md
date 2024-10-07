@@ -11,7 +11,7 @@ We are excited to share the newly designed landing page for [Pizza Store Name], 
 
 This project was developed using clean, maintainable code with HTML5, modern CSS (including Flexbox and Grid), and vanilla JavaScript for interactivity.
 
-Check it out here: http://192.168.48.10:5500/index.html#
+Check it out here: https://pizza-home-page.netlify.app/
 
 #webdevelopment #html #css #javascript #pizza #responsivedesign #ux #frontenddevelopment #onlinestore
 
